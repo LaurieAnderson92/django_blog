@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('blog/', blog_views, name='blog') No Longer needed
+    path('summernote/', include('django_summernote.urls')), # Path needed for the summernote funtionality
     path("", include("blog.urls"), name="blog-urls"),
 ]
