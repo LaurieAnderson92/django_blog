@@ -1,1 +1,1 @@
-console.log("A message");
+console.log("JS test");
